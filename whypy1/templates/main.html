@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>My Project</title>
+		</head>
+	<body>
+	
+		<a href={{ url_for('home') }}> Home</a>		<a href={{ url_for('about') }}> About us</a>	<a href={{ url_for('contact') }}> Contact us</a>
+		<br><br>
+		
+		<footer>
+		{% block content %}
+		
+		{% endblock %}
+		<br>
+		&copy;
+		<a href="https://technicalhub.io">Thub</a>
+		
+		</body>
+</html>
